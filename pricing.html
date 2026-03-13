@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | BrewBase SaaS</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="glass"
+        style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); width: 90%; max-width: 1200px; z-index: 1000; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center;">
+        <div class="logo" style="font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem;">
+            <a href="index.html"><span style="color: var(--mocha-gold);">BREW</span>BASE</a>
+        </div>
+        <div class="nav-links" style="display: flex; gap: 30px; align-items: center;">
+            <a href="index.html">Explore</a>
+            <a href="#" class="active">Pricing</a>
+            <a href="#" class="btn btn-primary">Join Community</a>
+        </div>
+    </nav>
+
+    <main style="padding: 180px 5% 100px; text-align: center;">
+        <div class="animate-fade-up">
+            <h1 class="gradient-text" style="font-size: 3.5rem; margin-bottom: 20px;">Choose Your Perk</h1>
+            <p style="color: #6C757D; max-width: 600px; margin: 0 auto 60px;">Unlock premium features, exclusive cafe
+                discounts, and priority booking at top work-vibe spots.</p>
+        </div>
+
+        <div class="pricing-grid"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1100px; margin: 0 auto;">
+            <!-- Free Plan -->
+            <div class="glass" style="padding: 40px; text-align: left; transition: var(--transition);">
+                <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Explorer</h3>
+                <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 20px;">$0 <span
+                        style="font-size: 1rem; color: #6C757D;">/mo</span></div>
+                <ul style="list-style: none; margin-bottom: 40px; color: #ADB5BD; display: grid; gap: 15px;">
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Standard Cafe Directory</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> View Basic Wifi Speeds</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Map Links & Directions</li>
+                    <li style="opacity: 0.5;"><i class="fas fa-times"></i> Premium Discounts</li>
+                    <li style="opacity: 0.5;"><i class="fas fa-times"></i> Priority Booking</li>
+                </ul>
+                <button class="btn btn-outline" style="width: 100%; justify-content: center;">Current Plan</button>
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="glass"
+                style="padding: 40px; text-align: left; border-color: var(--mocha-gold); position: relative; transform: scale(1.05); background: rgba(212, 175, 55, 0.05);">
+                <div
+                    style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--mocha-gold); color: var(--espresso-black); padding: 5px 20px; border-radius: 50px; font-weight: 700; font-size: 0.8rem;">
+                    MOST POPULAR</div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Digital Nomad</h3>
+                <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 20px;">$12 <span
+                        style="font-size: 1rem; color: #6C757D;">/mo</span></div>
+                <ul style="list-style: none; margin-bottom: 40px; color: #ADB5BD; display: grid; gap: 15px;">
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Everything in Explorer</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Verified Fiber-Speed Reports</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> 15% Discount at Partner Cafes
+                    </li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Exclusive "Zen Zone" Access</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Member Events</li>
+                </ul>
+                <button class="btn btn-primary" style="width: 100%; justify-content: center;">Go Pro</button>
+            </div>
+
+            <!-- Teams Plan -->
+            <div class="glass" style="padding: 40px; text-align: left; transition: var(--transition);">
+                <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Startup Squad</h3>
+                <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 20px;">$49 <span
+                        style="font-size: 1rem; color: #6C757D;">/mo</span></div>
+                <ul style="list-style: none; margin-bottom: 40px; color: #ADB5BD; display: grid; gap: 15px;">
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Up to 5 Team Members</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Meeting Room Bookings</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Shared Team Wallet</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Dedicated Workspace Rep</li>
+                    <li><i class="fas fa-check" style="color: var(--mocha-gold);"></i> Business Tax Invoicing</li>
+                </ul>
+                <button class="btn btn-outline" style="width: 100%; justify-content: center;">Contact Sales</button>
+            </div>
+        </div>
+    </main>
+
+    <footer style="padding: 60px 0; text-align: center; border-top: 1px solid var(--glass-border);">
+        <p style="color: #6C757D;">&copy; 2026 BrewBase SaaS. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Hover effects for pricing cards
+        document.querySelectorAll('.glass').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                if (!card.style.borderColor.includes('rgb(212, 175, 55)')) {
+                    card.style.transform = 'translateY(-5px)';
+                    card.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+                }
+            });
+            card.addEventListener('mouseleave', () => {
+                if (!card.style.borderColor.includes('rgb(212, 175, 55)')) {
+                    card.style.transform = 'translateY(0)';
+                    card.style.borderColor = 'var(--glass-border)';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
